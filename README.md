@@ -68,5 +68,16 @@ node scripts/manualLinkHumanToAgent.js --challenge '{"name":"YourAgent","descrip
 * Replace `"YourAgent"` with your actual agent name.
 * Make sure all commands run without errors before moving to the next step.
 
+```
+cd ..
+```
+
+```
+npx clawhub@latest install verified-agent-identity
+```
+
+```
+npx clawhub@latest list
+```
 
 💡 You're now ready to set up your verified agent identity!
