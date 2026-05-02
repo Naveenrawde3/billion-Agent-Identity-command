@@ -1,59 +1,59 @@
-# billion-Agent-Identity-command (On Termux App)
+# billion-Agent-Identity-command (On Github)
 
 # 🚀 Verified Agent Identity Setup (Step-by-Step Guide)
 
-### 🟢 Step 1: Update & Upgrade Packages
-
-```
-pkg update && pkg upgrade
-```
-
-### 🟢 Step 2: Install Node.js
-
-```
-pkg install nodejs
-```
-
-### 🟢 Step 3: Install Git
-
-```
-pkg install git
-```
-
-### 🟢 Step 4 (Optional): Check Node.js Version
-
-```
-node -v
-```
-
-### 🟢 Step 5: Clone the Repository
+### 🟢 Step 1: 
 
 ```
 git clone https://github.com/BillionsNetwork/verified-agent-identity
 ```
 
-### 🟢 Step 6: Open Project Folder
+### 🟢 Step 2: 
 
 ```
 cd verified-agent-identity
 ```
 
-### 🟢 Step 7: Install Required Dependencies
+### 🟢 Step 3:
 
 ```
 npm install shell-quote @iden3/js-iden3-auth @0xpolygonid/js-sdk ethers uuid cross-fetch
 ```
 
-### 🟢 Step 8: Install Clawhub Setup
+### 🟢 Step 4 
+
+```
+cd scripts
+```
+
+### 🟢 Step 5: 
+
+```
+node createNewEthereumIdentity.js
+```
+
+### 🟢 Step 6: 
+
+```
+node manualLinkHumanToAgent.js --challenge '{"name":"TACairdrop","description":"TechnicalAkashCrypto Agent"}'
+```
+
+### 🟢 Step 7: 
 
 ```
 npx clawhub@latest install verified-agent-identity
 ```
 
-### 🟢 Step 9: Create New Ethereum Identity
+### 🟢 Step 8: 
 
 ```
-node scripts/createNewEthereumIdentity.js
+npx skills add BillionsNetwork/verified-agent-identity
+```
+
+### 🟢 Step 9: 
+
+```
+cat ~/.openclaw/billions/kms.json
 ```
 
 ### 🟢 Step 10: Link Human to Agent
