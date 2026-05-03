@@ -76,4 +76,4 @@ npx clawhub@latest install verified-agent-identity
 npx clawhub@latest list
 ```
 
-💡 You're now ready to set up your verified agent identity!
+Check Status Here: https://attestations-explorer.billions.network/
