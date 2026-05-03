@@ -62,18 +62,4 @@ cat ~/.openclaw/billions/kms.json
 node manualLinkHumanToAgent.js --challenge '{"name":"Ntek","description":"Ntek Agent"}'
 ```
 
-### 🟢 Step 11:
-
-```
-cd ..
-```
-
-```
-npx clawhub@latest install verified-agent-identity
-```
-
-```
-npx clawhub@latest list
-```
-
 Check Status Here: https://attestations-explorer.billions.network/
