@@ -56,6 +56,14 @@ npx skills add BillionsNetwork/verified-agent-identity
 cat ~/.openclaw/billions/kms.json
 ```
 
+### 🟢 Step 6: (for login link)
+
+```
+node manualLinkHumanToAgent.js --challenge '{"name":"Ntek","description":"Ntek Agent"}'
+```
+
+### 🟢 Step 11:
+
 ```
 cd ..
 ```
