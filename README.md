@@ -35,7 +35,7 @@ node createNewEthereumIdentity.js
 ### 🟢 Step 6: 
 
 ```
-node manualLinkHumanToAgent.js --challenge '{"name":"TACairdrop","description":"TechnicalAkashCrypto Agent"}'
+node manualLinkHumanToAgent.js --challenge '{"name":"Ntek","description":"Ntek Agent"}'
 ```
 
 ### 🟢 Step 7: 
