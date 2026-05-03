@@ -50,23 +50,11 @@ npx clawhub@latest install verified-agent-identity
 npx skills add BillionsNetwork/verified-agent-identity
 ```
 
-### 🟢 Step 9: 
+### 🟢 Step 9: (Save your Private key)
 
 ```
 cat ~/.openclaw/billions/kms.json
 ```
-
-### 🟢 Step 10: Link Human to Agent
-
-```
-node scripts/manualLinkHumanToAgent.js --challenge '{"name":"YourAgent","description":"AI agent"}'
-```
-
-
-✅ **Note:**
-
-* Replace `"YourAgent"` with your actual agent name.
-* Make sure all commands run without errors before moving to the next step.
 
 ```
 cd ..
